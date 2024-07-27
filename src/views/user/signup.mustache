@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body class="container">
+    <h1>{{title}}</h1>
+    <h2>欢迎注册辰心的博客</h2>
+
+    <form method="post" role="/register">
+        <div class="form-group">
+            {{user-name-error}}
+            <label for="username">用户名</label>
+            <input type="text" class="form-control" id="username" name="user" placeholder="Enter user name"
+                required>
+        </div>
+        <div class="form-group">
+            <label for="password">密码 (8字符以上)</label>
+            <input type="password" class="form-control" id="pass" name="pass" placeholder="Enter password" minlength="8"
+                required>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Register" class="btn btn-primary">
+        </div>
+    </form>
+</body>
+
+</html>

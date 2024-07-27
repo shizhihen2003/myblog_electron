@@ -1,0 +1,25 @@
+{
+  "name": "myblog_electron",
+  "version": "1.0.0",
+  "description": "~",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "chenxin",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-ensure-login": "^0.1.1",
+    "date-and-time": "^3.4.1",
+    "electron": "^31.3.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mustache-express": "^1.3.2",
+    "nedb": "^1.8.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
